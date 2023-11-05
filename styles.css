@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.sr-bar {
+  width: 700px;
+  position: relative;
+}
+.sr-bar input {
+  width: 90%;
+  border: 1px solid black;
+}
+
+.sr-bar button {
+  width: 10.5%;
+  position: absolute;
+  right: -3px;
+  border: 1px solid black;
+  transition: all 0.5s;
+}
+.middle {
+  margin-left: 0rem;
+}
+
+.list-icon {
+  padding: 0.5rem;
+  clip-path: circle();
+  transition: all 0.5s;
+}
+
+.list-icon:hover {
+  background-color: rgb(241, 241, 241) !important;
+}
+.voice {
+  background-color: rgb(241, 241, 241) !important;
+}
+.voice,
+.bell,
+.vid-icon {
+  padding: 0.7rem;
+  clip-path: circle();
+  transition: all 0.5s;
+}
+.voice:hover,
+.sr-bar button:hover,
+.bell:hover,
+.vid-icon:hover {
+  background-color: rgb(224, 224, 224) !important;
+}
+.left-icon {
+  width: 24px;
+  height: 24px;
+}
+.home {
+  transition: all 0.5s;
+  padding: rem;
+  border-radius: 12px;
+}
+.home:hover {
+  background-color: rgb(224, 224, 224) !important;
+}
